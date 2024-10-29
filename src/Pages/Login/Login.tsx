@@ -1,4 +1,4 @@
-import { INoPropsReactComponent } from '@/src/GlobalTypes/Types'
+import { INoPropsReactComponent } from "../../GlobalTypes/Types"
 
 
 const Login:INoPropsReactComponent = () => {

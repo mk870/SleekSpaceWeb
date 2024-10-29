@@ -1,5 +1,5 @@
-import { INoPropsReactComponent } from '@/src/GlobalTypes/Types'
 import React from 'react'
+import { INoPropsReactComponent } from '../../GlobalTypes/Types'
 
 const Register:INoPropsReactComponent = () => {
   return (

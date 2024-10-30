@@ -1,16 +1,16 @@
-import React from 'react'
+import MenuList from "../../MenuList/MenuList";
+import menuLogo from "../../../Assets/menuLogo.png";
+import { INoPropsReactComponent } from "../../../GlobalTypes/Types";
 
-import MenuList from '../../MenuList/MenuList'
-
-
-type Props = {}
-
-const SideMenu = (props: Props) => {
+const SideMenu: INoPropsReactComponent = () => {
   return (
-    <div className='bg-green-600 text-white w-[220px] flex'>
-      <MenuList/>
+    <div className="bg-white text-white w-[220px] flex flex-col">
+      <div className="flex pl-2">
+        <img src={menuLogo} alt="logo" className="w-[100px] h-[90px]" />
+      </div>
+      <MenuList />
     </div>
-  )
-}
+  );
+};
 
-export default SideMenu
+export default SideMenu;

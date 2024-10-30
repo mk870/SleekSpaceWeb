@@ -8,7 +8,7 @@ const Navbar:React.FC<Props> = ({
   viewType
 }) => {
   return (
-    <div className='bg-red-800 text-white w-full h-[80px] flex'>Navbar</div>
+    <div className='bg-white text-white w-full h-[80px] flex'>Navbar</div>
   )
 }
 

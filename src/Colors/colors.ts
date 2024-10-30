@@ -1,16 +1,18 @@
-
 const colors = {
-  regularTextColor:"black",
-  dark:{
-    background:"black",
-    lightBackground:"gray",
-    text:"#ffffff",
-  },
-  light:{
-    background:"black",
-    lightBackground:"gray",
-    text:"#ffffff",
-  }
-}
+  primaryColor: "#4D09CD",
+  lightPrimary: "#d1c0e3",
+  iceWhite: "aliceblue",
+  modalOverlay: "rgba(0, 0, 0, 0.8)",
+  textGray: "#7c7484",
+  shadyGreen: "#1dac08",
+  darkGray: "#1B1B1C",
+};
 
-export const {regularTextColor,dark,light} = colors
+export const {
+  primaryColor,
+  lightPrimary,
+  modalOverlay,
+  darkGray,
+  textGray,
+  shadyGreen,
+} = colors;

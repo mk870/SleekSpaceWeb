@@ -13,8 +13,8 @@ const WebView: React.FC<Props> = ({ children }) => {
     <div className="flex w-full h-full">
       <SideMenu />
       <div className="flex flex-col w-full h-full">
-        <Navbar viewType="desktop"/>
-        <div className="flex p-2 bg-yellow-950 flex-1 h-full">{children}</div>
+        <Navbar viewType="desktop" />
+        <div className="flex p-2 bg-gray-300 flex-1 h-full">{children}</div>
         <Footer />
       </div>
     </div>
